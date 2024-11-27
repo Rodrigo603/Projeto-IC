@@ -2,10 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const body = document.body;
     const botaoParaCor = document.getElementById("theme-toggle");
 
-  
     body.classList.add("dark-theme");
 
-   
     botaoParaCor.addEventListener("click", () => {
         if (body.classList.contains("dark-theme")) {
             body.classList.remove("dark-theme");
