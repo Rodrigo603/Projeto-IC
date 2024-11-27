@@ -18,7 +18,7 @@ Este projeto consiste em duas páginas principais:
 
 ---
 
-## ** Tecnologias Utilizadas **
+## **Tecnologias Utilizadas**
 
 - **HTML5**: Para a estrutura do site.
 - **CSS3**: Para estilização, incluindo temas e responsividade.
@@ -26,5 +26,13 @@ Este projeto consiste em duas páginas principais:
 
 ---
 
+## **Como usar ?**
+
+-Crie uma pasta, abra ela com o git Bash, e faça o comando  
+git clone nesse URL
+
+https://github.com/Rodrigo603/projeto-ic.git
+
+Pronto ! agora você poderá usar esses códigos para ver o site, e caso queira utilizar, faça sua biografia coloque os links das suas redes e troque os caminhos das imagens e as descrições e nomes dos projetos.
 
 
