@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-wrap: wrap; /
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 100%;
+    max-width: 900px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: left;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;  
+        text-align: center;      
+    }
+
+    .project-item {
+        flex-direction: column; 
+    }
+
+    .image-content img {
+        max-width: 80%; 
+    }
+}
+
+#foto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+header {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    opacity: 0.8;
+}
+
+body.light-theme nav button {
+    background-color: #ddd;
+    color: #000;
+}
+
+header button#theme-toggle {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button#theme-toggle:hover {
+    opacity: 0.8;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+body.light-theme footer {
+    background-color: #f0f0f0;
+    color: #000;
+}
